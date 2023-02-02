@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portrait chinois Antoine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="nav" id="accueil">  <!-- création de l'accueil -->
+    <h1>Portrait chinois de</h1>
+
+    <h3 class="span loader">
+      <span class="m">A</span>
+      <span class="m">N</span>
+      <span class="m">T</span>
+      <span class="m">O</span>
+      <span class="m">I</span>
+      <span class="m">N</span>
+      <span class="m">E</span> 
+      <span class="m">&nbsp;</span>      <!-- Pour mettre un petit effet sympa sur chaque lettre plus tard -->
+      <span class="m">A</span>
+      <span class="m">T</span>
+      <span class="m">T</span>
+      <span class="m">A</span>
+      <span class="m">L</span>
+      <span class="m">I</span>
+    </h3>
+  </section>
+
+  <div class="container" id="NavContain">
+    <a class="nav-tab" href="#tab-ANIMAL">ANIMAL</a>
+    <a class="nav-tab" href="#tab-JEUX">JEU</a>
+    <a class="nav-tab" href="#tab-PAYSAGE">PAYSAGE</a>
+    <a class="nav-tab" href="#tab-BOSS">BOSS</a>          <!-- les boutons qui mènent aux analogies -->
+    <a class="nav-tab" href="#tab-METIER">METIER</a>
+    <a class="nav-tab" href="#tab-SPORT">SPORT</a>
+    <a class="nav-tab" href="#tab-MANGA">MANGA</a>
+  </div>
+
+  <main class="main">
+    <div></div>
+  </main>
+
+  <div class="formulaire">
+    <h1> Créez votre Analogie!</h1>
+    <label for="analogie"> Si vous etiez: </label>
+    <input type="text" id="analogie">
+    <label for="valeurAnalogie"> Vous seriez: </label>
+    <input type="text" id="valeurAnalogie">
+    <label for="titre"> Titre: </label>             <!-- formulaire -->
+    <input type="text" id="titre">
+    <label for="explication"> Explication: </label>
+    <input type="text" id="explication">
+    <label for="image"> Image: </label>
+    <input type="file" accept="image/*" name="image" id="file" onchange="loadFile(event)" style="display: none;">
+    <label for="file" style="cursor: pointer;">Cliquez ici pour insérer votre image</label>
+    <div class="centrer">
+      <input class=Envoyer type="submit" id="Envoyerform">
+    </div>
+  </div>
+
+  <footer id="MOI">
+    <div class="container">
+      <div class="left">
+        <h1>MENU</h1>
+        <a href="#accueil">ACCUEIL</a>
+        <a href="#tab-ANIMAL">ANIMAL</a>
+        <a href="#tab-JEUX">JEU</a>
+        <a href="#tab-PAYSAGE">PAYSAGE</a>
+        <a href="#tab-BOSS">BOSS</a>         <!-- menu du footer -->
+        <a href="#tab-METIER">METIER</a>
+        <a href="#tab-SPORT">SPORT</a>
+        <a href="#tab-MANGA">MANGA</a>
+      </div>
+
+      <div class="right">
+        <h1>À PROPOS DE MOI</h1>
+        <p>
+          Je suis étudiant en première année de MMI. C'est un BUT sur le multimédia et Internet. J'ai 19 ans. J'aime
+          beaucoup dessiner vous pouvez me retrouver sur plusieurs plateformes telles que tiktok ou Twitch. Je vous
+          remercie
+          d'avoir jeté un coup d'œil à mon portrait chinois !
+        </p>
+      </div>
+
+      <div class="mentions" id="mentions"> <!-- les mentions légales -->
+        <h1>MENTIONS LEGALES</h1>
+        <button id="modal-btn" class="button">Cliquez ici</button>
+
+        <div id="my-modal" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times;</span>
+              <h2>Mentions legales</h2>
+            </div>
+            <div class="modal-body">
+              <p>LES MENTIONS LEGALES :</p>
+
+              <p>
+                image panda :
+                https://www.flickr.com/photos/reflexiste/5864772296
+                <br />
+                image elden ring :
+                https://www.flickr.com/photos/defaltsiuncula/52498346517
+                <br />
+                image montagne :
+                https://www.flickr.com/photos/kraka-manu/4419933912  <!-- les liens -->
+                <br />
+                image oryx : https://17kgroup.it/wp-content/uploads/2015/08/oryx-taken-king-lore-worms.jpg
+                <br />
+                image ski : https://commons.wikimedia.org/wiki/File:Ski_Famille_-_Family_Ski_Holidays.jpg
+                <br />
+                image one piece : https://www.wallpaperup.com/1046473/One_Piece_%2811%29.html
+
+              </p>
+            </div>
+            <div class="modal-footer">
+              <h3>Merci !</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,64 @@
+[
+    {
+        "id":"tab-ANIMAL",
+        "titre":"PANDA ROUX",
+        "analogie":"un animal",
+        "valeurAnalogie":"un panda roux",
+        "explication":"le panda roux est un animal qui parait joueur, curieux et qui ne se laisse pas facilement observer… il est aussi attachant que sauvage le rendant d'autant plus intriguant…",
+        "image":"<img class=panda src='panda-roux.jpg'>"
+    },
+
+    {
+        "id":"tab-JEUX",
+        "titre":"ELDEN RING",
+        "analogie":"un jeu",
+        "valeurAnalogie":"Elden Ring",
+        "explication":"ce jeu est l'un des meilleurs sortis récemment. Je suis un amateur des “soulslike” et fais d'ailleurs partie des mille premiers joueurs mondiaux ayant finit le jeu à 100%.",
+        "image":"<img class=eldenring src='Elden ring.jpg'>"
+    },
+
+    {
+        "id":"tab-PAYSAGE",
+        "titre":"MONTAGNE",
+        "analogie":"un paysage",
+        "valeurAnalogie":"une montagne enneigée",
+        "explication":"le changement d'ambiance au gré des saisons et le silence qui y règne m'apaise. Au cœur des montagnes et à son sommet, je me sens invincible, il y a une douceur de vivre que je ne peux retrouver dans d'autres lieux.",
+        "image":"<img class=neige src='montagne.jpg'>"
+    },
+
+    {
+        "id":"tab-BOSS",
+        "titre":"ORYX ROI DES CORROMPUS",
+        "analogie":"un boss",
+        "valeurAnalogie":"Oryx le roi des corrompus",
+        "explication":"ce personnage est le boss le plus imposant et difficile du jeu Destiny 2 que j'affectionne particulièrement et aussi parce que j'apprécie son charadesign.",
+        "image":"<img class=oryx src='oryx-roi-des-corompue.jpg'>"
+    },
+
+    {
+        "id":"tab-METIER",
+        "titre":"STREAMER",
+        "analogie":"un métier",
+        "valeurAnalogie":"steamer",
+        "explication":"le stream fait partie inhérente de ma vie actuelle et c'est un milieu dans lequel je me sens épanoui et dans lequel, j'espère, pouvoir continuer à travailler.",
+        "image":"<img class=protopex src='stream twitch.jpg'>"
+    },
+
+    {
+        "id":"tab-SPORT",
+        "titre":"SKI",
+        "analogie":"un sport",
+        "valeurAnalogie":"le ski",
+        "explication":"ce sport au-delà de se pratiquer dans la montagne, me pousse à dépasser mes limites et évoque de beaux souvenirs… je ne peux retrouver l'adrénaline que me procure la vitesse du ski dans un autre sport.",
+        "image":"<img class=ski src='ski.jpg'>"
+    },
+
+    {
+        "id":"tab-MANGA",
+        "titre":"ONE PIECE",
+        "analogie":"un manga",
+        "valeurAnalogie":"One Piece",
+        "explication":"cette oeuvre est l'une de mes fictions préférées de part la complexité de l'histoire et sa cohérence dans l'espace temps, ce shonen est le plus vendu au monde et est considéré comme un classique de l'univers, une base solide pour découvrir d'autres œuvres.",
+        "image":"<img class=Onepiece src='one-piece.jpg'>"
+    }
+]
